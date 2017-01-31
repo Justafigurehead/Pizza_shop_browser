@@ -1,0 +1,128 @@
+body {
+background-color: steelblue;
+}
+
+body h1 {
+  color:#FFF;
+  font-family: 'Barrio';
+  font-size: 50px;
+}
+
+
+/* links */
+
+ a:link, a:visited, a:active, a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+/* h1 and etc */
+
+p {
+  font-family: 'Lora';
+  font-size:16px;
+}
+
+p strong {
+  color: tomato;
+}
+
+
+/* form */
+
+form {
+  font-family:'Lora';
+  font-size:16px;
+  padding: 10px 0px 35px 55px;
+}
+
+.submit_button {
+  background: tomato;
+  color:#fff;
+  border-radius: 5px;
+  border: 2px solid #CC4F38;
+}
+
+
+/* BOX*/
+
+
+.content_box {
+  margin:5px auto 5px;
+  width:40%;
+  padding-top:25px;
+  background: url('./imgs/turtles-pizza.jpg') #fff;
+  background-position: right bottom;
+  background-size: 20% 25%;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 30px #2e2e2e;
+  border-top-right-radius: 15px;
+   border-top-left-radius: 15px;
+}
+
+/* index */
+
+.order {
+  padding:10px;
+  font-family: 'Lora';
+  border-bottom:2px solid tomato;
+}
+
+.order p {
+  padding-left:25px;
+}
+
+#details_link {
+display: flex;
+justify-content: flex-end;
+padding-right: 105px;
+font-size: 15px;
+}
+
+#page_title {
+  display:flex;
+  justify-content: center;
+  font-size:75px;
+  color: tomato;
+  text-shadow: 2px 2px 0px #FFF;
+  margin-bottom: -30px;
+}
+
+
+/* Navigation */
+nav {
+  position:fixed;
+  top:0;
+  right:0;
+  background-color:#FFF;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width:100%;
+}
+
+nav a:hover {
+
+
+}
+/*Div spacer*/
+
+#spacer {
+  height:105px;
+  width:100%;
+}
+
+/*show*/
+
+.order_details {
+  width:960px;
+  background:#FFF;
+  padding:10px;
+  border-radius:25px;
+}
+
+/* labels */
+
+label {
+margin-bottom: 5%;
+
+}
