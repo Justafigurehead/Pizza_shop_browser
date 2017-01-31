@@ -1,0 +1,30 @@
+
+<h1>Order a Pizza</h1>
+
+
+<form action="/pizzas" method="post">
+  <label>
+    First name: 
+    <input type= "text" name="first_name" />
+
+  </label>
+  
+  <label>
+    Last name:
+    <input type = "text" name="last_name" />
+  </label> 
+   
+  <label>
+    Select a pizza: 
+    <select name="topping">
+      <option value = "Pepperoni">Pepperoni</option>
+      <option value = "Margherita">Margherita</option>
+      <option value= "Spicy Italian">Spicy Italian</option>
+    </select>
+  </label>
+  <label>
+      Quantity:
+      <input type="number" name="quantity" />
+  </label>
+  <input type="submit" value="Order Pizza" />
+</form>
